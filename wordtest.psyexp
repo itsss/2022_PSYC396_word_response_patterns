@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant':'', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1800, 1169]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="wordtest" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="화면에 제시되는 글자를 보고 어절이면 '/', 비어절이면 'z' 를 최대한 빠르게 눌러주시기 바랍니다.&amp;#10;&amp;#10;준비가 완료되었다면, space를 눌러 실험을 시작해 주시기 바랍니다.&amp;#10;&amp;#10;먼저 연습시행을 진행합니다. 연습시행에서는 본 시행에 앞서 프로그램을 연습해보고, 정답 및 오답여부를 실시간으로 확인할 수 있습니다." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <TextComponent name="text_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="stimuli">
+      <KeyboardComponent name="key_resp_4">
+        <Param val="'z', 'slash'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="$coranswer" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_4" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(visualfield, 0)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$name" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="ITI">
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="iti = 0&amp;#10;maxDur = 3&amp;#10;minDur = 1" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="iti = 0;&amp;#10;maxDur = 3;&amp;#10;minDur = 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="iti = (minDur + ((maxDur - minDur) * Math.random()));&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="iti = minDur + (maxDur - minDur) * random()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_4">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$iti" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="goodbye">
+      <TextComponent name="text_5">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="끝&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="feedback">
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="msg_pr = 'doh!'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="msg = &quot;&quot;;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((! key_resp_2.keys)) {&amp;#10;    msg = &quot;\ubc18\uc751\uc774 \uc785\ub825\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4.\n&quot;;&amp;#10;} else {&amp;#10;    if ((key_resp_2 === coranswer)) {&amp;#10;        msg = &quot;\uc815\ub2f5\uc785\ub2c8\ub2e4!&quot;;&amp;#10;    } else {&amp;#10;        msg = &quot;\uc624\ub2f5\uc785\ub2c8\ub2e4!\n&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if not key_resp_4.keys:&amp;#10;    msg_pr = &quot;반응이 입력되지 않았습니다.\n&quot;&amp;#10;elif key_resp_4.corr or key_resp_4.keys == coranswer:&amp;#10;    msg_pr = &quot;정답입니다!&quot;&amp;#10;else:&amp;#10;    msg_pr= &quot;오답입니다!\n&quot;&amp;#10;print(msg_pr, key_resp_4.keys, key_resp_4.corr)&amp;#10;text_6.setText(msg_pr)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_6">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_6" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$msg_pr" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instruction">
+      <TextComponent name="text_7">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_7" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="연습 시행이 종료되었습니다.&amp;#10;&amp;#10;&lt;Space&gt; 를 누르면 본 시행을 시작합니다." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="trial"/>
+    <LoopInitiator loopType="TrialHandler" name="practice">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'id': 1, 'name': '가르침을', 'coranswer': 'z', 'visualfield': -0.3}, {'id': 2, 'name': '하늘빛', 'coranswer': 'z', 'visualfield': 0.3}, {'id': 3, 'name': '아침리에', 'coranswer': 'slash', 'visualfield': -0.3}, {'id': 4, 'name': '우리충을', 'coranswer': 'slash', 'visualfield': 0.3}, {'id': 5, 'name': '날라뼈와', 'coranswer': 'slash', 'visualfield': -0.3}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="stimulus_trial.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="stimuli"/>
+    <Routine name="ITI"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="practice"/>
+    <Routine name="instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'id': 1, 'name': '개구리는', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 2, 'name': '고구마는', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 3, 'name': '골짜기가', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 4, 'name': '궁둥이가', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 5, 'name': '그림자를', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 6, 'name': '농땡이를', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 7, 'name': '대통령의', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 8, 'name': '두꺼비의', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 9, 'name': '마무리와', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 10, 'name': '망아지와', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 11, 'name': '며느리로', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 12, 'name': '민들레랑', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 13, 'name': '바가지만', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 14, 'name': '병아리도', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 15, 'name': '부엉이만', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 16, 'name': '시치미도', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 17, 'name': '심부름과', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 18, 'name': '쓰레기는', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 19, 'name': '아가씨를', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 20, 'name': '아버지의', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 21, 'name': '어머니가', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 22, 'name': '원숭이의', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 23, 'name': '인절미를', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 24, 'name': '재채기랑', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 25, 'name': '저고리와', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 26, 'name': '주머니로', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 27, 'name': '주전자는', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 28, 'name': '항아리가', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 29, 'name': '해파리도', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 30, 'name': '향신료에', 'lexicality': 1, 'visualfield': 1, 'type': 1}, {'id': 31, 'name': '감나무가', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 32, 'name': '그림책과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 33, 'name': '꼭짓점을', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 34, 'name': '대장암이', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 35, 'name': '독버섯과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 36, 'name': '땅바닥만', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 37, 'name': '마른풀과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 38, 'name': '민족혼이', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 39, 'name': '바닷길의', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 40, 'name': '병따개는', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 41, 'name': '부슬비는', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 42, 'name': '불놀이를', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 43, 'name': '시청각은', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 44, 'name': '심호흡도', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 45, 'name': '아래위의', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 46, 'name': '아침상에', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 47, 'name': '알감자로', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 48, 'name': '어깨뼈를', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 49, 'name': '원자량만', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 50, 'name': '인삼차가', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 51, 'name': '제삿날은', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 52, 'name': '좌표축과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 53, 'name': '주먹밥을', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 54, 'name': '주황색이', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 55, 'name': '집귀신과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 56, 'name': '칼자국과', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 57, 'name': '태양빛은', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 58, 'name': '항공유가', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 59, 'name': '해장국의', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 60, 'name': '향수병에', 'lexicality': 1, 'visualfield': 1, 'type': 2}, {'id': 61, 'name': '가물치로', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 62, 'name': '강아지를', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 63, 'name': '거머리만', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 64, 'name': '고양이가', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 65, 'name': '기러기는', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 66, 'name': '꼴뚜기랑', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 67, 'name': '꽁무니를', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 68, 'name': '난쟁이가', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 69, 'name': '날라리와', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 70, 'name': '노가리와', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 71, 'name': '달팽이를', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 72, 'name': '도토리도', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 73, 'name': '마누라의', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 74, 'name': '마지막에', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 75, 'name': '보호자가', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 76, 'name': '비둘기만', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 77, 'name': '살쾡이는', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 78, 'name': '송아지랑', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 79, 'name': '시금치와', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 80, 'name': '아랑곳는', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 81, 'name': '아우성이', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 82, 'name': '엉터리를', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 83, 'name': '올빼미도', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 84, 'name': '우렁이와', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 85, 'name': '울타리는', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 86, 'name': '이파리만', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 87, 'name': '잔챙이가', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 88, 'name': '주사위를', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 89, 'name': '코끼리와', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 90, 'name': '하소연과', 'lexicality': 1, 'visualfield': 2, 'type': 1}, {'id': 91, 'name': '가격표도', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 92, 'name': '거름망은', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 93, 'name': '귓속말에', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 94, 'name': '기생충과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 95, 'name': '깨소금도', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 96, 'name': '난투극이', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 97, 'name': '날짐승을', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 98, 'name': '달동네의', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 99, 'name': '당구공을', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 100, 'name': '도랑물도', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 101, 'name': '디딤돌이', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 102, 'name': '마당발과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 103, 'name': '마찰음과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 104, 'name': '반대말의', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 105, 'name': '보리밥과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 106, 'name': '비빔밥에', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 107, 'name': '시간표는', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 108, 'name': '아무것만', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 109, 'name': '아침잠이', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 110, 'name': '암세포는', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 111, 'name': '올여름도', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 112, 'name': '우리말을', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 113, 'name': '위아래는', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 114, 'name': '이마뼈와', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 115, 'name': '잔칫집이', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 116, 'name': '주름살과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 117, 'name': '진공관과', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 118, 'name': '코허리를', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 119, 'name': '콩나물를', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 120, 'name': '하숙집도', 'lexicality': 1, 'visualfield': 2, 'type': 2}, {'id': 121, 'name': '시투극이', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 122, 'name': '가당발과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 123, 'name': '주쾡이는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 124, 'name': '기아지랑', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 125, 'name': '강부름과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 126, 'name': '원림책과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 127, 'name': '반터리를', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 128, 'name': '진동네의', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 129, 'name': '울채기랑', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 130, 'name': '주슬비는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 131, 'name': '개짜기가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 132, 'name': '바생충과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 133, 'name': '보무리와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 134, 'name': '주무것만', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 135, 'name': '이라리와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 136, 'name': '거호흡도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 137, 'name': '거소금도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 138, 'name': '대닷길의', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 139, 'name': '아랑물도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 140, 'name': '망버섯과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 141, 'name': '인래위의', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 142, 'name': '시호자가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 143, 'name': '암가씨를', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 144, 'name': '제구공을', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 145, 'name': '주공관과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 146, 'name': '심레기는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 147, 'name': '재파리도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 148, 'name': '당귀신과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 149, 'name': '저격표도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 150, 'name': '심깨뼈를', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 151, 'name': '항신료에', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 152, 'name': '골침상에', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 153, 'name': '귓둘기만', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 154, 'name': '그여름도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 155, 'name': '올고리와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 156, 'name': '해랑곳는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 157, 'name': '마먹밥을', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 158, 'name': '병리말을', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 159, 'name': '불짐승을', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 160, 'name': '꼭간표는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 161, 'name': '주침니로', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 162, 'name': '개라리는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 163, 'name': '난래이가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 164, 'name': '심아흡도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 165, 'name': '쓰랑기는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 166, 'name': '아랑씨를', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 167, 'name': '대나암이', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 168, 'name': '마리라의', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 169, 'name': '망우지와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 170, 'name': '기황충과', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 171, 'name': '이따뼈와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 172, 'name': '궁름이가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 173, 'name': '인장차가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 174, 'name': '난쟁극이', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 175, 'name': '부간이만', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 176, 'name': '노엉리와', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 177, 'name': '항레유가', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 178, 'name': '주물밥을', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 179, 'name': '해슬리도', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 180, 'name': '아무곳는', 'lexicality': 2, 'visualfield': 1, 'type': '.'}, {'id': 181, 'name': '우무말을', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 182, 'name': '좌터축과', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 183, 'name': '도호물도', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 184, 'name': '주아살과', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 185, 'name': '가족치로', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 186, 'name': '잔자이가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 187, 'name': '주빼위를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 188, 'name': '불격이를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 189, 'name': '당꺼공을', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 190, 'name': '며들리로', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 191, 'name': '울림리는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 192, 'name': '위호래는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 193, 'name': '꼭생점을', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 194, 'name': '우먹이와', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 195, 'name': '콩마물를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 196, 'name': '꽁수니를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 197, 'name': '병땡개는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 198, 'name': '깨닷금도', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 199, 'name': '항끼리가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 200, 'name': '이부리만', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 201, 'name': '아가네를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 202, 'name': '난쟁빛가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 203, 'name': '마누색의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 204, 'name': '민족리이', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 205, 'name': '원자마만', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 206, 'name': '향수미에', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 207, 'name': '민들기랑', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 208, 'name': '코허풀를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 209, 'name': '향신료에', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 210, 'name': '바닷리의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 211, 'name': '하소이과', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 212, 'name': '잔챙이가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 213, 'name': '며느기로', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 214, 'name': '해장미의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 215, 'name': '엉터위를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 216, 'name': '항아레가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 217, 'name': '꽁무비를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 218, 'name': '대통국의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 219, 'name': '암세책는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 220, 'name': '가물발로', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 221, 'name': '비빔지에', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 222, 'name': '병아기도', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 223, 'name': '주황망이', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 224, 'name': '올빼유도', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 225, 'name': '시간집는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 226, 'name': '항공미가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 227, 'name': '달동자의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 228, 'name': '살쾡신는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 229, 'name': '보호성가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 230, 'name': '올여축도', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 231, 'name': '어깨리를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 232, 'name': '보리지과', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 233, 'name': '기러병는', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 234, 'name': '아래리의', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 235, 'name': '대장리이', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 236, 'name': '시금암와', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 237, 'name': '농땡관를', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 238, 'name': '감나름가', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 239, 'name': '망아금와', 'lexicality': 2, 'visualfield': 2, 'type': '.'}, {'id': 240, 'name': '시청리은', 'lexicality': 2, 'visualfield': 2, 'type': '.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="stimulus_new.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="Fixation"/>
+    <Routine name="stimuli"/>
+    <Routine name="ITI"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="goodbye"/>
+  </Flow>
+</PsychoPy2experiment>
